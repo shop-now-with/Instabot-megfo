@@ -1,0 +1,23 @@
+
+name = "instabot_megfo"
+main = "worker.js"
+compatibility_date = "2026-10-09"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "instabot-db"
+database_id = "8b101b37-c067-4662-94c0-20623d10879e"
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+[observability.traces]
+enabled = false
+head_sampling_rate = 1
+persist = true
+
+[observability.issues]
+enabled = false
