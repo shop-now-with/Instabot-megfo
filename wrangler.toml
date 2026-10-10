@@ -11,10 +11,6 @@ database_id = "8b101b37-c067-4662-94c0-20623d10879e"
 [ai]
 binding = "AI"
 
-[[d1_databases]]
-binding = "DB"
-database_id = "8b101b37-c067-4662-94c0-20623d10879e"
-
 [observability.logs]
 enabled = true
 head_sampling_rate = 1
