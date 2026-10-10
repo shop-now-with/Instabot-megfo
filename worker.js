@@ -10,7 +10,7 @@ const LINKS = {
 
 const CREATOR = "@faayahx";
 const enc = new TextEncoder();
-const AI_MODEL = "@cf/meta/llama-3.1-8b-instruct";
+const AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fast";
 
 const SYSTEM_PROMPT = `
 You are the friendly MEGFO chat assistant.
